@@ -174,3 +174,35 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* Mobile Responsive Image Adjustment */
+@media (max-width: 600px) {
+  .home-image img,
+  .service-image img,
+  .choose-image img,
+  .developmentProcess img,
+  .cta img {
+    width: 90% !important;
+    max-width: 90% !important;
+  }
+  
+  body {
+    padding: 1rem !important;
+    text-align: left !important;
+  }
+  
+  .hero {
+    padding: 1rem !important;
+    text-align: left !important;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .developmentProcess {
+    grid-template-columns: 1fr !important;
+  }
+}
+
