@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SILVERSTACK TECHNOLOGIES</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">SILVERSTACK</a>
+      <ul>
+     
+      </ul>
+    </nav>
+    <div class="hero">
+   <h1 id="typed-text"></h1>
+      <p>we help businesses thrive in the digital age with scalable, secure, and user-focused software. From concept to deployment, our team of expert developers, designers, and engineers partner with you to create technology that solves real-world problems — efficiently and beautifully.
+Whether you're a startup building your MVP or an enterprise modernizing legacy systems, we deliver solutions that drive success.</p>
+    </div>
+  </header>
+
+  <div class="home-image">
+ <img src="assets/home_one.jpg" alt ="homepage"/>
+  </div>
+
+  <section class="services-overview">
+    <h2>Our Core Services</h2>
+
+  <div class="service-image">
+    <p> We provide comprehensive, end-to-end software development services that are meticulously tailored to meet your unique business objectives and challenges. Whether you’re launching a new digital product, streamlining internal processes, or scaling existing systems, our team is equipped to guide you through every stage of the software lifecycle.
+At the core of our approach is a commitment to understanding your business — its goals, users, and operational dynamics. We combine deep industry expertise with cutting-edge technologies and agile methodologies to architect solutions that are not only technically sound but also intuitive and scalable.</p>
+ <img src="assets/services.png" alt ="homepage"/>
+  </div>
+
+    </div>
+  </section>
+
+  <section class="why-choose">
+    <h2>Why Choose Us</h2>
+
+    <div class="choose-image">
+    <p> We provide comprehensive, end-to-end software development services that are meticulously tailored to meet your unique business objectives and challenges. Whether you’re launching a new digital product, streamlining internal processes, or scaling existing systems, our team is equipped to guide you through every stage of the software lifecycle.
+At the core of our approach is a commitment to understanding your business — its goals, users, and operational dynamics. We combine deep industry expertise with cutting-edge technologies and agile methodologies to architect solutions that are not only technically sound but also intuitive and scalable.</p>
+ <img src="assets/choose.png" alt ="homepage"/>
+  </div>
+
+  </section>
+
+ <section class="software-process">
+  <h2>How We Develop Software</h2>
+  <p>Our software development process is designed to ensure efficiency, scalability, and innovation. We begin with <strong>Discovery & Planning</strong>, understanding your goals, defining scope, and identifying risks to set a solid foundation. Then, our <strong>UI/UX Design</strong> team crafts intuitive user experiences and visually appealing interfaces for seamless navigation. Through <strong>Agile Development</strong>, we implement features iteratively, ensuring flexibility and continuous improvements with modern technologies. Our <strong>DevOps</strong> approach integrates automation for seamless deployment, optimizing efficiency through continuous integration and delivery. <strong>Software Testing</strong> is a critical phase where we conduct manual and automated QA to ensure security, performance, and reliability. Once ready, we handle <strong>Deployment</strong> smoothly, transitioning the software to production with minimal disruption. Finally, we provide <strong>Maintenance & Support</strong>, offering ongoing monitoring, optimization, and updates to enhance stability and long-term performance. Our approach prioritizes innovation, adaptability, and excellence, delivering scalable and future-ready solutions that empower businesses.</p>
+
+
+  <div class="developmentProcess">
+    <img src="assets/1.png" alt="step 1" />
+    <img src="assets/2.png" alt="step 2" />
+    <img src="assets/3.png" alt="step 3" />
+    <img src="assets/4.png" alt="step 4" />
+    <img src="assets/5.png" alt="step 5" />
+    <img src="assets/6.png" alt="step 6" />
+  </div>
+</section>
+
+  <section class="cta">
+    <h2>Ready to Scale with Elite Engineers?</h2>
+    <p>Contact us today to discuss your project requirements.</p>
+      <img src="assets/7.png" alt="step 6" />
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SILVERSTACK TECHNOLOGIES. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const text = "Empowering Innovation Through Custom Software Solutions";
+    let i = 0;
+    const speed = 90;
+
+    function typeWriter() {
+      if (i < text.length) {
+        document.getElementById("typed-text").textContent += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+
+    window.onload = typeWriter;
+  </script>
+</body>
+
+</html>
